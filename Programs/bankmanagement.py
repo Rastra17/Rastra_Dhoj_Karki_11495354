@@ -321,7 +321,6 @@ def login():
     else:
         messagebox.showinfo("Failed!", "          Empty Fields!         ")
     flag=False
-    return flag
 
 #Empty Labels to configure Buttons
 Label1=Label(manage,text="",bg="cornflower blue")
